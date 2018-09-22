@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- SQL语句映射文件，mapper-映射 -->
+<mapper namespace="com.zd.dao.IStuDao">
+	<resultMap type="com.zd.entity.Stu" id="stuMapper">
+		<result column="sid" property="sid"/>
+		<result column="sname" property="sname"/>
+		<result column="ssex" property="ssex"/>
+		<result column="sage" property="sage"/>
+	</resultMap>
+	
+</mapper>
